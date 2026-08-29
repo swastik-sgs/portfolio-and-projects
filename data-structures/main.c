@@ -1,6 +1,6 @@
 #include <stdio.h>
-
 int main() {
-    printf("Data Structures Progress!\n");
+    int a=25;
+    printf("The value of a is: %d\n", a);
     return 0;
 }
