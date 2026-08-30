@@ -1,7 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 int main() {
-  int a = 4*3/6*3;
-  printf("%d \n", a);
+  int n;
+  printf("enter number n: ");
+  scanf("%d", & n);
+
+  printf("%d", n%2==0);
   return 0;
 }
