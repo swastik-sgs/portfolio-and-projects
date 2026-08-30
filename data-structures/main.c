@@ -1,10 +1,8 @@
 #include<stdio.h>
 #include<math.h>
 int main() {
-  int n;
-  printf("enter number n: ");
-  scanf("%d", & n);
-
-  printf("%d", n%2==0);
+  int israining= 1;
+  int ismonday= 0;
+  printf(israining ||  ismonday);
   return 0;
 }
