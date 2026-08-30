@@ -1,9 +1,13 @@
 #include<stdio.h>
 int main() {
-  float r;
-  printf("enter number r :");
-  scanf("%f", & r);
+  int a;
+  printf("write any number a: ");
+  scanf("%d", & a);
 
-  printf("area of circle is %f", r*r*3.14);
+  int b;
+  printf("write any number b: ");
+  scanf("%d", & b);
+
+  printf("perimeter of rectangle is %d", 2*(a+b));
   return 0;
 }
