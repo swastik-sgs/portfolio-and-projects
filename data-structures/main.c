@@ -1,9 +1,7 @@
 #include<stdio.h>
-int main(){
-  int n;
-  printf("write a number n: ");
-  scanf("%d", & n);
-
-  printf("cube of number n is %d" , n*n*n);
-  return 0 ;
+#include<math.h>
+int main() {
+  int a = (int) 1.999999;
+  printf("%d \n", a);
+  return 0;
 }
