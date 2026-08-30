@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
-    int a= 23;
-    printf("the value of int is %d \n",a);
-    printf("Hello, World!\n");
-    return 0;
+  float r;
+  printf("enter number r :");
+  scanf("%f", & r);
+
+  printf("area of circle is %f", r*r*3.14);
+  return 0;
 }
