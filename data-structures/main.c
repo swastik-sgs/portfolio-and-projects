@@ -1,27 +1,10 @@
 #include<stdio.h>
-int main(){
-  int day;
-  printf("enter day : ");
-  scanf("%d", &day);
+int main() {
+  int marks;
+  printf("enter marks: ");
+  scanf("%d", &marks);
 
-  switch(day){
-    case 1 : printf("monday \n") ;
-            break;
-    case 2 : printf("tuesday \n");
-            break;
-    case 3 : printf("wednessday \n") ;
-            break;
-    case 4 : printf("thursday \n");
-            break;
-    case 5 : printf("friday \n") ;
-            break;
-    case 6 : printf("satday \n");
-            break;
-    case 7 : printf("sunday \n") ;
-            break;
-    default : printf("nothing");
-                   
-  }
+  marks>30? printf("passed") : printf("failed");
+
   return 0;
-  
 }
