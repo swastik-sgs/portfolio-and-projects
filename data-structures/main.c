@@ -1,14 +1,27 @@
 #include<stdio.h>
 int main(){
-  int age;
-  printf("enter age : ");
-  scanf("%d", &age);
-  
-  if(age>=18){
-    printf("is adult");
-  }
-  else{
-    printf("not adult");
+  int day;
+  printf("enter day : ");
+  scanf("%d", &day);
+
+  switch(day){
+    case 1 : printf("monday \n") ;
+            break;
+    case 2 : printf("tuesday \n");
+            break;
+    case 3 : printf("wednessday \n") ;
+            break;
+    case 4 : printf("thursday \n");
+            break;
+    case 5 : printf("friday \n") ;
+            break;
+    case 6 : printf("satday \n");
+            break;
+    case 7 : printf("sunday \n") ;
+            break;
+    default : printf("nothing");
+                   
   }
   return 0;
+  
 }
