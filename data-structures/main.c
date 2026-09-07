@@ -1,22 +1,9 @@
 #include<stdio.h>
 int main(){
-  int marks;
-  printf("enter marks : ");
-  scanf("%d", & marks);
-  
-  if(marks>30){
-    printf("C");
-  }
-  else if (marks>=30 && marks<=70) {
-    printf("B");
-  }
-  else if (marks>=70 && marks<=90) {
-    printf("A");
-  }
-  else {
-    printf("A+");
-  }
-  return 0;
-  
+ int i;
+ for(i=1 ; i<=5 ; i+=1){
+  printf("hello world \n");
+ }
+ return ;
   
 }
