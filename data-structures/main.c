@@ -1,10 +1,8 @@
 #include<stdio.h>
 int main(){
     int i;
-    i=0;
-    while(i<=4){
+    for(i=1;i<=10;i=i*2){
         printf("%d \n" ,i);
-        i++;
     }
     return 0;
 }
