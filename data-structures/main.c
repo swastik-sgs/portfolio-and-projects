@@ -1,30 +1,15 @@
 #include<stdio.h>
 int main(){
-   int a,b;
-   char oe;
+   int n, h, t , o;
+   printf("enter values");
+   scanf("%d", &n);
+   h=n/100;
+   t=(n%100)/10;
+   o= (n%100)%10;
 
-   printf("enter number");
-   scanf("%d%d", &a, &b);
-
-   printf("enter oerator");
-   scanf(" %c", &oe);
-
-   switch(oe){
-    case '+':
-       printf("%d",a+b);
-       break;
-    case '-':
-       printf("%d", a-b);
-       break;
-    case '*':
-       printf("%d", a*b);
-       break;
-    case '/':
-       printf("%d", a/b);
-       break;
-    
-    default:
-       printf("invalid");
-   }
-    return 0;
+   printf("hour= %d\n",h);
+   printf("min %d\n",t);
+   printf("sec %d\n",o);
+   
+   return 0;
 }
