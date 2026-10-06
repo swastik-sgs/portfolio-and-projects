@@ -7,7 +7,7 @@ int main(){
    scanf("%d%d", &a, &b);
 
    printf("enter oerator");
-   scanf("%c", &oe);
+   scanf(" %c", &oe);
 
    switch(oe){
     case '+':
