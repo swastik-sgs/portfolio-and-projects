@@ -1,11 +1,30 @@
 #include<stdio.h>
 int main(){
-    int i;
-    for(i=2; ;i++){
-        if(i%2==!0){
-            break;
-        }   
-    }
-    printf("end");
+   int a,b;
+   char oe;
+
+   printf("enter number");
+   scanf("%d%d", &a, &b);
+
+   printf("enter oerator");
+   scanf("%c", &oe);
+
+   switch(oe){
+    case '+':
+       printf("%d",a+b);
+       break;
+    case '-':
+       printf("%d", a-b);
+       break;
+    case '*':
+       printf("%d", a*b);
+       break;
+    case '/':
+       printf("%d", a/b);
+       break;
+    
+    default:
+       printf("invalid");
+   }
     return 0;
 }
